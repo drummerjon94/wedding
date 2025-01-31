@@ -223,6 +223,10 @@ figcaption {
   color: #000000;
 }
 
+.p {
+  text-align: center;
+}
+
 /* Media query for smaller devices (below 768px) */
 @media (max-width: 768px) {
   .grid-container {
