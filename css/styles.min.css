@@ -222,3 +222,10 @@ figcaption {
   font-size: 1.2rem;
   color: #333;
 }
+
+/* Media query for smaller devices (below 768px) */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* Stack the images in a single column */
+  }
+}
