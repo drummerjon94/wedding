@@ -137,6 +137,7 @@
 .timeline-title {
     margin-top: 0;
     color: inherit;
+    text-align: center;
 }
 
 .timeline-body > p,
