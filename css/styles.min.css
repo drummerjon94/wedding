@@ -219,8 +219,8 @@ body {
 figcaption {
   text-align: center;
   margin-top: 10px;
-  font-size: 1.2rem;
-  color: #333;
+  font-size: 16px;
+  color: #000000;
 }
 
 /* Media query for smaller devices (below 768px) */
