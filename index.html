@@ -249,18 +249,31 @@
 <div class="container">
     <div class="page-header">
         <h1 id="timeline">Menu</h1>
-        <p>Please let us know of any dietary requirements when returning your <a href="https://form.jotform.com/243135621665354" target="_blank">RSVP.</a></p>
     </div>
-    <div class="grid-container">
-    <figure class="grid-item">
-      <img src="img/logo-jj.png" alt="Image 1">
-      <figcaption>Regular Menu</figcaption>
-    </figure>
-    <figure class="grid-item">
-      <img src="img/logo-jj.png" alt="Image 2">
-      <figcaption>Vegetarian Menu</figcaption>
-    </figure>
-  </div>
+</div>
+<div class="grid-container">
+        <!-- Image 1 -->
+        <div class="grid-item">
+            <img src="image1-preview.jpg" alt="Image 1" class="grid-image" data-fullsize="image1-full.jpg">
+            <div class="caption">Caption for Image 1</div>
+        </div>
+        <!-- Image 2 -->
+        <div class="grid-item">
+            <img src="image2-preview.jpg" alt="Image 2" class="grid-image" data-fullsize="image2-full.jpg">
+            <div class="caption">Caption for Image 2</div>
+        </div>
+        <!-- Add more images as needed -->
+    </div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
+    <!-- Link to External JavaScript File -->
+    <script src="modal.js"></script>
 </section>
 
 <section id="hotel" class="section-padding">
