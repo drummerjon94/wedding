@@ -212,7 +212,7 @@ body {
 
 .grid-image {
     width: 100%; /* Ensure the image fills the container */
-    height: auto;
+    height: 50%;
     display: block;
     border: 1px solid #ddd; /* Optional: Add a border for better visibility */
     border-radius: 5px; /* Optional: Add rounded corners */
