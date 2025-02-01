@@ -298,14 +298,14 @@ body {
 }
 
 .info-card p {
-  font-size: 12px;
+  font-size: 16px;
   color: #666;
   margin: 5px 0;
 }
 
 .info-card i {
   margin-right: 10px;
-  color: #ff6f61;
+  color: #afb6b9;
 }
 
 .info-card a {
