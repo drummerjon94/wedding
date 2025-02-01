@@ -11,7 +11,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <title>Jess and Jonny are getting married!</title>
-    <meta name="description" content="We would like to invite you to our wedding reception.">
+    <meta name="description" content="We would like to invite you to our wedding reception">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#ffffff">
     <meta property="og:title" content="Jess and Jonny are getting married!">
@@ -83,6 +83,7 @@
                             <li><a href="#order">In the Evening</a></li>
                             <li><a href="#hotel">Hotels</a></li>
                             <li><a href="#taxi">Taxis</a></li>
+                            <li><a href="#faqs">FAQs</a></li>
                             <li><a href="https://form.jotform.com/250173627568362" target="_blank">RSVP</a></li>
                         </ul>
                     </nav>
@@ -157,10 +158,10 @@
           <div class="timeline-badge"><i class="fa fa-map-marker"></i></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">1.30pm</h4>
+              <h4 class="timeline-title">1.00pm</h4>
             </div>
             <div class="timeline-body">
-              <p>Arrival at The Great Barn</p>
+              <p>Arrival at The Great Barn. The bar will be open until 30 minutes before the ceremony.</p>
             </div>
           </div>
         </li>
@@ -182,7 +183,7 @@
               <h4 class="timeline-title">2.30pm</h4>
             </div>
             <div class="timeline-body">
-              <p>Reception Drinks and Lawn Games</p>
+              <p>Reception Drinks and Canapés.</p>
             </div>
           </div>
         </li>
@@ -193,7 +194,7 @@
               <h4 class="timeline-title">4.00pm</h4>
             </div>
             <div class="timeline-body">
-              <p>Wedding Breakfast and Speeches</p>
+              <p>Wedding Breakfast and Speeches.</p>
             </div>
           </div>
         </li>
@@ -204,7 +205,7 @@
               <h4 class="timeline-title">8.00pm</h4>
             </div>
             <div class="timeline-body">
-              <p>Cutting of the Cake</p>
+              <p>Cutting of the Cake.</p>
             </div>
           </div>
         </li>
@@ -215,7 +216,7 @@
               <h4 class="timeline-title">8.15pm</h4>
             </div>
             <div class="timeline-body">
-              <p>Time to Dance!</p>
+              <p>Time to Dance! Wood-fired pizzas will be served during the evening.</p>
             </div>
           </div>
         </li>
@@ -226,7 +227,7 @@
               <h4 class="timeline-title">12.00am</h4>
             </div>
             <div class="timeline-body">
-              <p>Carriages (any cars left at the venue overnight can be left there until xyzam the next day)</p>
+              <p>Carriages (cars can be left at the venue overnight and collected by 10.00am the next morning).</p>
             </div>
           </div>
         </li>    
@@ -266,7 +267,7 @@
 <div class="container">
     <div class="page-header">
         <h1 id="timeline">Taxis</h1>
-        <p>We recommend booking these in advance to guarantee availability.</p>
+        <p>We recommend booking these in advance to guarantee availability. Cars can be left at the venue overnight and collected by 10.00am the next morning.</p>
     </div>      
 <!-- Taxi Services Section -->
     <div class="section">
@@ -284,6 +285,46 @@
       </div>
     </div>
   </div>    
+</section>
+       
+<section id="faqs" class="section-padding">
+<div class="container">
+    <div class="page-header">
+        <h1 id="timeline">FAQs</h1>
+    </div>
+</div>
+<div class="faq-container">
+        <div class="faq-item">
+            <div class="faq-question">Is there a car park at the venue?</div>
+            <div class="faq-answer">Yes. There's plenty of parking. Cars can be left at the venue overnight and collected the next morning before 10.00am.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Is there anything you'd like as a wedding gift?</div>
+            <div class="faq-answer">Your presence at our wedding is the greatest present of all. But if you’d like to give a gift and help us on our way. A contribution towards our honeymoon would really make our day.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Is the wedding adults-only?</div>
+            <div class="faq-answer">While we love your little ones, we have decided to have our wedding be an adult-only occassion (with the exception of our two little nieces). We hope this advanced notice means you are still able to share our big day!</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Is it easy to book a taxi from the venue on the day?</div>
+            <div class="faq-answer">The Great Barn is quite a remote venue so booking a taxi on the day may be difficult. We'd recommend booking one in advance.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Does the venue accept cash?</div>
+            <div class="faq-answer">The Great Barn is a cashless venue and therefore only takes cards.</div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.faq-question').forEach(item => {
+            item.addEventListener('click', () => {
+                const answer = item.nextElementSibling;
+                answer.classList.toggle('active');
+                item.classList.toggle('active');
+            });
+        });
+    </script>
 </section>
        
 <footer>
