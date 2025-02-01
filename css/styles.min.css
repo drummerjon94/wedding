@@ -184,6 +184,10 @@
   background-color: #afb6b9;
 }
 
+.body {
+  text-align: center;
+}
+
 /* Styles for Hotel and Taxi */
 
 .info-card {
