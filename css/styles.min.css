@@ -230,3 +230,7 @@ figcaption {
     grid-template-columns: 1fr; /* Stack the images in a single column */
   }
 }
+
+.footer {
+  background-color: #afb6b9;
+}
