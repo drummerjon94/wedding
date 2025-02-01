@@ -316,19 +316,3 @@ body {
 .info-card a:hover {
   text-decoration: underline;
 }
-
-/* Mobile-Specific Styles */
-@media (max-width: 600px) {
-
-.info-card {
-    padding: 15px; /* Slightly reduce padding for smaller screens */
-  }
-
-  .info-card h3 {
-    font-size: 1.25rem; /* Smaller card title for mobile */
-  }
-
-  .info-card p {
-    font-size: 0.9rem; /* Smaller text for mobile */
-  }
-}
