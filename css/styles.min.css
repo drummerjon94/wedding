@@ -261,16 +261,15 @@ body {
     position: absolute;
     top: 20px;
     right: 35px;
-    color: #fff;
+    color: #ffffff;
     font-size: 40px;
-    font-weight: bold;
     transition: 0.3s;
     cursor: pointer;
 }
 
 .close:hover,
 .close:focus {
-    color: #bbb;
+    color: #ffffff;
     text-decoration: none;
     cursor: pointer;
 }
