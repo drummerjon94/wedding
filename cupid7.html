@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupid's Quiz</title>
+    <link rel="stylesheet" href="css/birthday.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Question 6</h1>
+        <p>What does the first letter of each answer spell?</p>
+        <input type="text" id="answer" placeholder="Enter your answer">
+        <button id="submit">Submit</button>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        document.getElementById('submit').addEventListener('click', function() {
+            const userAnswer = document.getElementById('ripper').value.trim().toLowerCase();
+            const correctAnswer = 'rome';
+            const resultDiv = document.getElementById('result');
+
+            if (userAnswer === correctAnswer) {
+                resultDiv.innerHTML = `
+                    <p class="success">Well done! Let's reveal what you've won</p>
+                    <button id="next-page">Reveal Cupid's Gift</button>
+                `;
+                document.getElementById('next-page').addEventListener('click', function() {
+                    window.location.href = 'gift.html'; // Replace with your desired URL
+                });
+            } else {
+                resultDiv.innerHTML = `<p class="error">Try again boo</p>`;
+            }
+        });
+    </script>
+</body>
+</html>
