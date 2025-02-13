@@ -9,7 +9,7 @@
 <body>
     <div class="quiz-container">
         <h1>Remember the first letter of each answer</h1>
-        <p>Where did we go on our second date?</p>
+        <p>Where did we go on our third date?</p>
         <input type="text" id="answer" placeholder="Enter your answer">
         <button id="submit">Submit</button>
         <div id="result"></div>
@@ -23,14 +23,14 @@
 
             if (userAnswer === correctAnswer) {
                 resultDiv.innerHTML = `
-                    <p class="success">Well done! Correct answer.</p>
+                    <p class="success">Well done! Next question...</p>
                     <button id="next-page">Next Page</button>
                 `;
                 document.getElementById('next-page').addEventListener('click', function() {
-                    window.location.href = 'next-page.html'; // Replace with your desired URL
+                    window.location.href = 'cupid2.html'; // Replace with your desired URL
                 });
             } else {
-                resultDiv.innerHTML = `<p class="error">Incorrect. Please try again.</p>`;
+                resultDiv.innerHTML = `<p class="error">Try again boo</p>`;
             }
         });
     </script>
