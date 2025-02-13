@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Question</title>
+    <title>Cupid's Quiz</title>
     <link rel="stylesheet" href="css/birthday.css">
 </head>
 <body>
     <div class="quiz-container">
-        <h1>Quiz Question</h1>
-        <p>What is the capital of France?</p>
+        <h1>Remember the first letter of each answer</h1>
+        <p>Where did we go on our second date?</p>
         <input type="text" id="answer" placeholder="Enter your answer">
         <button id="submit">Submit</button>
         <div id="result"></div>
@@ -18,7 +18,7 @@
     <script>
         document.getElementById('submit').addEventListener('click', function() {
             const userAnswer = document.getElementById('answer').value.trim().toLowerCase();
-            const correctAnswer = 'paris';
+            const correctAnswer = 'raoul's bar';
             const resultDiv = document.getElementById('result');
 
             if (userAnswer === correctAnswer) {
